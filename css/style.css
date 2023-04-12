@@ -355,4 +355,41 @@ footer .copyright {
     }
 }
 
+@media screen and (max-width: 390px) {
+
+    header .menu a{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    header .textos .nombre {
+        font-size: 20px;
+    }
+
+    header .textos h3 {
+        font-size: 10px;
+    }
+
+    main .acerca-de article h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    main .menu article .nombre,
+    main .menu article .precio {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    main .contacto .direccion {
+        margin-bottom: 15px;
+    }
+
+    main .contacto .direccion,
+    main .contacto .horarios {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 

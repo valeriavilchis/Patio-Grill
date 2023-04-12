@@ -23,7 +23,7 @@ $(document).ready(function(){
     }
 
     //Scroll
-    var acercaDe =$('#acerca-de').offset().top;
+    var acercaDe = $('#acerca-de').offset().top;
 
     $('#btn-acerca').on('click', function(e){
         e.preventDefault();
