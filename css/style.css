@@ -22,7 +22,8 @@ body {
 
 header {
     width: 100%;
-    background: url('../img/fondo.jpg') #393e46;
+    background: url('../img/textura.png') #393e46;
+    background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position:  center 0;
@@ -77,7 +78,7 @@ header .textos h3 {
 /*Main*/
 
 main {
-    background: url('../img/textura.png');
+    background: url('../img/textura_6.png');
     background-repeat: repeat;
 }
 
@@ -92,7 +93,7 @@ main .acerca-de .foto {
     left: 0;
     top: -50px;
     z-index: 0;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.451);
 }
 
 main .acerca-de .foto img{
@@ -109,7 +110,8 @@ main .acerca-de article {
    top: 100px;
     z-index: 1;
     float: right;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.451);
+    border-radius: 20px;
 }
 
 main .acerca-de article h3 {
@@ -124,11 +126,12 @@ main .acerca-de article p {
 }
 
 main .menu {
-    padding-top: 470px;
+    padding-top: 500px;
     margin-bottom: 40px;
 }
 
 main .menu .titulo {
+    color: #fff9ea;
     font-size: 40px;
     font-weight: 300;
     text-align: center;
@@ -137,7 +140,7 @@ main .menu .titulo {
 
 main .menu .contenedor-menu,
 main .menu .contenedor-menu-interior {
-    border: 1px solid black;
+    border: 1px solid #fff9ea;
     background: transparent;
     padding: 10px;
     overflow: hidden;
@@ -150,6 +153,7 @@ main .menu article {
 }
 
 main .menu .categoria {
+    color: #fff9ea;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -159,17 +163,19 @@ main .menu .categoria {
 main .menu .platillo {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-bottom:4px dotted black ;
+    border-bottom:4px dotted #fff9ea;
     overflow: hidden;
 }
 
 main .menu .nombre {
+    color: #fff9ea;
     font-size: 20px;
     margin-bottom: 15px ;
     float: left;
 }
 
 main .menu  .precio {
+    color: #fff9ea;
     font-size: 20px;
     margin-bottom: 15px ;
     float: right;
@@ -177,7 +183,7 @@ main .menu  .precio {
 
 main .menu .descripcion {
     font-size: 16px;
-    color: #393e46;
+    color: #fff9ea;
     clear: both;
 }
 
@@ -204,7 +210,9 @@ main .galeria .foto:hover img {
 }
 
 main .contacto {
-    background:  white;
+    background: url('../img/textura.png') white;
+    background-repeat: repeat;
+    
     padding: 60px 0;
     overflow: hidden;
 }
@@ -259,7 +267,7 @@ main .mapa iframe {
 /*Footer*/
 
 footer {
-    background:#222831;
+    background:rgba(0, 0, 0, 0.896);
 }
 
 footer .copyright {
