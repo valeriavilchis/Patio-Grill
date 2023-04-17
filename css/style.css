@@ -21,12 +21,11 @@ body {
 /*Header*/
 
 header {
+    background: url('../img/fondo.png') #393e46;
+    object-fit: cover;
     width: 100%;
-    background: url('../img/textura.png') #393e46;
-    background-repeat: repeat;
-    background-size: cover;
+    height: 100%;
     background-attachment: fixed;
-    background-position:  center 0;
 }
 
 header .contenedor {
